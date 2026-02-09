@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Order;
+namespace Order.Folder;
 
 public partial class Product
 {

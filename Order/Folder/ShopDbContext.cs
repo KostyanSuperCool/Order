@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace Order;
+namespace Order.Folder;
 
 public partial class ShopDbContext : DbContext
 {

@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Order;
+namespace Order.Folder;
 
-public partial class DeliveryPoint
+public partial class Status
 {
     public int Id { get; set; }
 
-    public string DeliveryAddress { get; set; } = null!;
+    public string StatusName { get; set; } = null!;
 
     public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
 }

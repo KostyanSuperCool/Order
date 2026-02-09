@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Order;
+namespace Order.Folder;
 
-public partial class Measure
+public partial class Manufacturer
 {
     public int Id { get; set; }
 
-    public string MeasureName { get; set; } = null!;
+    public string ManufacturerName { get; set; } = null!;
 
     public virtual ICollection<Product> Products { get; set; } = new List<Product>();
 }
